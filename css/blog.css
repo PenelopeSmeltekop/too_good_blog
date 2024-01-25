@@ -1,0 +1,117 @@
+body {
+    font-family: 'roboto',sans-serif;
+    background: #076264;
+}
+
+nav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #076264;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: larger;
+    margin-right: 1em;
+}
+
+.input[type=text] {
+    width: 120px;
+    height: 15px;
+    margin-top: 2vh;
+    margin-left: 16em;
+    color: #076264;
+}
+
+h1 {
+    color: white;
+    font-size: large;
+    margin-left: 1em;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    color: #076264;
+    font-size: medium;
+    padding-left: 5em;
+}
+
+.img {
+    border-radius: 1rem;
+    width: 10em;
+    height: 8em;
+    float: left;
+    padding: 2%;
+}
+
+.article {
+    background-color: white;
+    color: #076264;
+    font-size: small;
+    border-radius: 1rem;
+    padding: 1%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 5%;
+}
+
+.button_leesmeer {
+    background-color: #67d695;
+    border: none;
+    color: #076264;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 16px;
+    margin-left: 16em;
+}
+
+footer {
+    background-color: white;
+    padding: 1em;
+
+}
+
+input[type=text] {
+    width: 318px;
+    height: 50px;
+    margin-top: 2vh;
+    color: #076264;
+}
+
+.button_verstuur {
+    background-color: #67d695;
+    border: none;
+    color: #076264;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 240px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+p {
+    color: #076264;
+}

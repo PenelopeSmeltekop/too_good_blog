@@ -1,0 +1,134 @@
+body {
+    font-family: 'roboto',sans-serif;
+    background: #076264;
+}
+
+nav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #076264;
+    text-align: center;
+    padding: 4px 10px;
+    font-size: larger;
+    margin-right: 1em;
+}
+
+article {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #076264;
+    background-color: white;
+    border-radius: 10%;
+}
+
+h1 {
+    color: #076264;
+    font-size: large;
+    margin-left: 1em;
+    margin-bottom: 1%;
+}
+
+h2 {
+    color: #076264;
+    font-size: medium;
+    padding-left: 2%;
+    padding-bottom: 0%;
+}
+
+.img {
+    width: 10em;
+    height: 7em;
+    padding: 2%;
+    border-radius: 1rem;
+    float: left;
+}
+
+.article {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1%;
+    margin: 1em;
+}
+
+.p_one {
+    font-size: small;
+    margin-top: 13%;
+    padding-left: 2%;
+}
+
+.euro {
+    color: #076264;
+    font-weight: bold;
+}
+
+.inhoud {
+    font-size: x-small;
+}
+
+footer {
+    background-color: white;
+    padding: 1em;
+}
+
+input[type=text] {
+    width: 318px;
+    height: 50px;
+    margin-top: 2vh;
+    color: #076264;
+}
+
+.button_verstuur {
+    background-color: #67d695;
+    border: none;
+    color: #076264;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 240px;
+    border-radius: 16px;
+}
+
+p {
+    color: #076264;
+}
+
+.checked {
+    color: #67d695;
+  }
+
+  .reviews {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 1em;
+    font-size: small;
+  }
+
+  .reviews img {
+    max-width: 60px;
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
